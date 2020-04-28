@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -92,6 +93,11 @@ public class App {
 	@Test
 	public void fieldValidation1(){
 	System.out.println("Field level validations1");
+	}
+	
+	@BeforeClass
+	public void setUpTestData(){
+		System.out.println("TestData is placed in excel");
 	}
 	
 	@AfterTest
