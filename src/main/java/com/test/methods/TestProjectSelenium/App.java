@@ -82,6 +82,12 @@ public class App {
 
 	}
 
+	
+	@Test
+	public void fieldValidation(){
+	System.out.println("Field level validations");
+	}
+	
 	@AfterTest
 	public void closeBrowser() {
 		driver.close();
