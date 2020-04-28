@@ -88,6 +88,12 @@ public class App {
 	System.out.println("Field level validations");
 	}
 	
+
+	@Test
+	public void fieldValidation1(){
+	System.out.println("Field level validations1");
+	}
+	
 	@AfterTest
 	public void closeBrowser() {
 		driver.close();
