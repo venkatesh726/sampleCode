@@ -104,4 +104,8 @@ public class App {
 	public void closeBrowser() {
 		driver.close();
 	}
+	
+	public void readTestData(){
+		System.out.println("Testdata read");
+	}
 }
